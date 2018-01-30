@@ -9,6 +9,7 @@
     margin-right: 40px;
     padding: 1px;
     font-family: helvetica;
+    font-size:100px;
 }
 #articlename{
 	text-align: center; 
@@ -21,7 +22,9 @@
 	margin-left: 40px;
 	margin-right: 40px;
 	background-color: grey;
+	color: white;
 	font-size: 20px;
+	font-family:;
 }
 #v2articlename{
 	transform: rotate(-90deg);
@@ -48,3 +51,49 @@
 	width:550px;
 	text-align: center
 }
+
+#v3{
+	margin: 80px;
+	width:670px;
+	height:1000px;
+	font-family: arial;
+	font-size: 25px;
+	color: white;
+	background-color: black;
+}
+.v3firstsection,
+.v3secondsection,
+.v3thirdsection,
+.v3forthsection{
+	transform: rotate(45deg);
+	padding:150px;
+
+
+}
+.v3singleline{
+	transform: rotate(-45deg)
+}
+#v4{
+	margin-top: 40px;
+	font-family: arial;
+	font-size: 85px;
+	background-color: black;
+	color: white;
+	width:800px;
+	height:1000px;
+}
+#v4articlename,
+.v4firstsection,.v4singleline,
+.v4secondsection,.v4thirdsection,
+.v4forthsection
+{
+	position: sticky;
+	top:0px;
+}
+
+
+
+
+
+
+
