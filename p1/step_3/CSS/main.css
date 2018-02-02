@@ -1,0 +1,195 @@
+* {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1px;
+
+}
+#v1{
+	margin-left: 40px;
+    margin-right: 40px;
+    padding: 1px;
+    font-family: 'Helvetica Neue', sans-serif; 
+    background-color:#2d5986;
+    color:#660000;
+}
+#articlename{
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-size: 275px; 
+	font-weight: bold; 
+	letter-spacing: -1px; 
+	line-height: 1; 
+	text-align: center;
+	width: 1178px;
+	height: 825px;
+	margin-top: -200px;
+}
+#paragraphs{
+	margin-left: 100px;
+	margin-right:50px;
+	margin-top: 250px;
+	width: 1000px;
+	font-weight: bold;
+
+}
+.singleline{
+	text-align: center;
+	font-size: 50px;
+	font-family: impact;
+}
+#v2{
+	margin-left: 400px;
+	margin-right: 40px;
+	background: linear-gradient(to bottom, #00ccff 0%, #000099 100%);
+	color: white;
+	font-size: 20px;
+	font-family: Open Sans;
+	width:450px;
+	height:1600px;
+}
+#v2articlename{
+	transform: rotate(-90deg);
+	position: fixed;
+	top:210px;
+	left: 100px;
+	padding:30px;
+	font-size: 30px;
+	font-weight: bold;
+	color:#103fb5;
+
+}
+#v2paragraphs{
+	margin-top: 50px;
+	font-size: 25px;
+	font-family: avenir;
+	color:#ffcccc;
+}
+.v2singleline{
+	color:#00ccff;
+}
+
+#v3{
+	margin: 80px;
+	width:800px;
+	font-family: arial;
+	font-size: 16px;
+	color: white;
+	background-image: url(http://wallpaperget.com/images/cool-background-hd-24.jpg);
+}
+#v3articlename{
+	font-family: Baskerville;
+	font-size:50px;
+	font-weight: bold;
+}
+
+#v4{
+	margin-top: 10px;
+	font-family: arial;
+	font-size: 85px;
+	font-weight:bold;
+	color: white;
+	width:800px;
+	float: right;
+	background: linear-gradient(to bottom, dodgerblue, white);
+
+}
+#v4articlename{
+	position: sticky;
+	font-size: 150px;
+	color: dodgerblue;
+	left:20px;
+
+
+}
+#v4articlename,
+.v4firstsection,.v4singleline,
+.v4secondsection,.v4thirdsection,
+.v4forthsection
+{
+	position: sticky;
+	top:0px;
+}
+#left{
+	color: black;
+}
+
+#v5{
+	font-family: futura;
+	font-size: 14.5px;
+	color: white;
+	background-image: url(http://wallpaperget.com/images/abstract-wallpaper-1080x1920-34.jpg);
+}
+#v5articlename{
+	background-color: dodgerblue;
+	width:150px;
+	height:150px;
+	font-size:30px;
+}
+.v5firstsection{
+	background-color: dodgerblue;
+	padding:20px;
+	width:200px;
+	height:160px;
+	position: relative;
+	left:800px;
+	font-size:16px;
+}
+.v5singleline1{
+	background-color: dodgerblue;
+	padding:20px;
+	width:100px;
+	height:80px;
+	position: relative;
+	left:20px;
+	font-size:16px;
+
+}
+.v5secondsection{
+	background-color: dodgerblue;
+	padding:20px;
+	width:300px;
+	height:300px;
+	position: relative;
+	left:200px;
+	top:100px;
+	font-size:18px;
+}
+.v5singleline2{
+	background-color: dodgerblue;
+	padding:20px;
+	width:150px;
+	height:100px;
+	position: relative;
+	left:750px;
+	top:-50px;
+}
+.v5thirdsection{
+	background-color: dodgerblue;
+	padding:20px;
+	width:220px;
+	height:220px;
+	position: relative;
+	left:400px;
+	top:-180px;
+}
+.v5singleline3{
+	background-color: dodgerblue;
+	padding:10px;
+	width:100px;
+	height:100px;
+	position: relative;
+	left:-30px;
+	top:-200px;
+	font-size:25px;
+}
+.v5forthsection{
+	background-color: dodgerblue;
+	padding:50px;
+	width:1000px;
+	height:400px;
+	position: relative;
+	left:50px;
+	top:-150px;
+	font-size:37px;
+}
+
+
