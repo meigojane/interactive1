@@ -1,0 +1,72 @@
+* {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1px;
+
+}
+
+#v4{
+	margin-top: 40px;
+	font-family: arial;
+	font-size: 85px;
+	background-color: crimson;
+	color: black;
+	width:800px;
+	height:600px;
+}
+#v4articlename,
+.v4firstsection,.v4singleline,
+.v4secondsection,.v4thirdsection,
+.v4forthsection
+{
+	position: sticky;
+	top:0px;
+}
+#v4articlename{
+	padding-top:20pt;
+	padding-bottom: 25pt;
+	line-height: 200%;
+	font-weight: bold;
+	font-size:100pt;
+	width:850pt;
+}
+	/* unvisited link */
+a.link1:link {
+    color: black;
+}
+
+a.link1:visited {
+    color: black;
+}
+
+a.linke1:hover {
+    color: crimson;
+}
+
+a.link1:active {
+    color: crimson;
+}
+#home{
+	font-size: 200pt;
+}
+a.linkhome:link {
+    color: crimson;
+}
+
+/* visited link */
+a.linkhome:visited {
+    color: crimson;
+}
+
+/* mouse over link */
+a.linkhome:hover {
+    color: black;
+}
+
+/* selected link */
+a.linkhome:active {
+    color: black;
+}
+#home{
+	font-size: 200pt;
+}
