@@ -40,11 +40,11 @@ a.link1:visited {
 }
 
 a.linke1:hover {
-    color: crimson;
+    color: blue;
 }
 
 a.link1:active {
-    color: crimson;
+    color: yellow;
 }
 #home{
 	font-size: 200pt;
