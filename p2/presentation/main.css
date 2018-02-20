@@ -1,0 +1,42 @@
+html, body {
+	margin:0;
+	padding:0;
+    box-sizing: border-box;
+} 
+h1{
+	font-size: 50pt;
+}
+p{
+	font-family: avenir;
+	align-self: center;
+	padding-bottom: 150px;
+}
+
+.slide {
+
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.slide2 {
+
+	display: flex;
+	overflow: hidden;
+	padding-bottom: 200px;
+}
+img {
+	align-self: center;
+    justify-content: center;
+    text-align: center;	
+    margin: auto;
+}
+
+
+.text {
+	align-self: center;
+    justify-content: center;
+    text-align: center;
+    width:100vw;
+    padding: 300px;	
+}
