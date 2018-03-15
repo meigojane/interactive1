@@ -1,0 +1,21 @@
+* {
+	margin-top: 50px;
+	padding: 0px;
+	background-color: black;
+
+}
+
+
+body{
+	background-image: url("../img/pw1.png");
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center top;
+	cursor:pointer;
+}
+
+/*.time{
+	color: white;
+}*/
+
+

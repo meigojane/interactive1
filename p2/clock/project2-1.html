@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Parallel</title>
+  <meta charset="utf-8" />
+    <!-- loading css -->
+
+  <!-- loading JS -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/script_2.js"></script>
+
+  <style>
+  body{cursor: e-resize;}
+
+  #scroll {
+    margin-top: 50px;
+    width: 7800px;
+    height: 100vh;
+  }
+
+  .section {
+    opacity: 0;
+    float: left;
+  }
+
+  .show {
+    opacity: 1;
+  }
+
+    .section img{
+      width:800px;
+      height:auto;
+    }
+
+    #infinity img{
+      width:1200px;
+      height:auto;
+    }
+</style>
+
+<script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function(){
+
+      $(window).on('scroll', function() {
+        var scrollLeft = $(this).scrollLeft();
+
+        $('.section').each(function() {
+        var leftDistance = $(this).offset().left;
+
+        if ( (leftDistance) < scrollLeft ) {
+            
+            $(this).next().addClass('show');
+          }
+        });
+      });
+
+    });
+  </script>
+
+</head>
+
+<body>
+
+  
+<div id="scroll">
+  <div class="section show"><img src="img/parallel-01.png">
+  </div>
+  <div class="section"><img src="img/parallel-02.png">
+  </div>
+  <div class="section"><img src="img/parallel-04.png">
+  </div>
+  <div class="section"><img src="img/parallel-05.png">
+  </div>
+  <div class="section"><img src="img/parallel-06.png">
+  </div>
+  <div class="section"><img src="img/parallel-07.png">
+  </div>
+  <div class="section"><img src="img/parallel-08.png">
+  </div>
+  <div class="section"><img src="img/parallel-09.png">
+  </div>
+  <div class="section" id="infinity"><a href="mainproject2.html"><img src="img/Layer10.png"></a>
+  </div>
+</div>
+
+   </body>
+</html>

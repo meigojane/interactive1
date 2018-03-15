@@ -1,0 +1,82 @@
+* {
+	
+	background-color: white;
+	;
+
+}
+
+#grid {
+	margin-top:100px;
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	height: 100vh;
+	/*background-image: url("../img/Layer1.png");
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center top;*/
+	background: transparent;
+	font-family: Impact;
+	font-size: 16pt;
+  
+  color:black;
+}
+
+body{
+
+	background-image: url("../img/Layer1.png");
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.home{
+	padding-top:600px;
+}
+a{
+  text-decoration: none;
+  color:black;
+  font-size:8px;
+  font-family: arial black;
+}
+/*.time{
+	color: white;
+}*/
+
+.clock,.clock1,.clock2,.clock3,.clock4 ,.clock5,.clock6,.clock7{
+  font-size: 16pt;
+  
+  color:black;
+  background:transparent;
+  opacity:0;
+}
+
+
+.clock:hover{
+	opacity:1;
+}
+
+.clock1,.clock4,.clock7{
+	margin-top: 40px;
+}
+.clock2, .clock5{
+	margin-top: 65px;
+}
+.clock3, .clock6{
+	margin-top: 40px;
+}
+.clock1:hover{
+	opacity:1;
+}.clock2:hover{
+	opacity:1;
+}.clock3:hover{
+	opacity:1;
+}
+.clock4:hover{
+	opacity:1;
+}.clock5:hover{
+	opacity:1;
+}.clock6:hover{
+	opacity:1;
+}
+.clock7:hover{
+	opacity:1;
+}

@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Project 2</title>
+
+
+  <!-- <script src="js/jquery.min.js"></script>
+  <script src="js/menuscript.js"></script> -->
+
+<style>
+
+body {
+  overflow: hidden;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+
+.minutes-container, .hours-container, .seconds-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.hours {
+  
+  background: #000;
+  height: 20%;
+  left: 48.75%;
+  position: absolute;
+  top: 30%;
+  transform-origin: 50% 100%;
+  width: 2.5%;
+}
+.minutes {
+ 
+  background: #000;
+  height: 40%;
+  left: 49%;
+  position: absolute;
+  top: 10%;
+  transform-origin: 50% 100%;
+  width: 2%;
+}
+.seconds {
+  
+  background: #000;
+  height: 45%;
+  left: 49.5%;
+  position: absolute;
+  top: 14%;
+  transform-origin: 50% 80%;
+  width: 1%;
+  z-index: 8;
+}
+@keyframes rotate {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+.hours-container {
+  animation: rotate 43200s infinite linear;
+}
+.minutes-container {
+   animation: rotate 3600s infinite steps(60);}
+.seconds-container {
+  animation: rotate 60s infinite steps(60);
+}
+
+#words{
+  /*font-family:Impact;*/
+  font-family: arial black, impact;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.left{
+  position: absolute;
+  left:20%;
+  top:43%;
+}
+.middle{
+  position:absolute;
+  top:90%;
+  left:49%;
+}
+.right{
+  position: absolute;
+  left:75%;
+  top:45%;
+}
+/*#grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 100vh;
+  font-size: 50px;
+  text-align:center;
+}
+#grid{
+  background-color:black;
+}
+.hover:hover{
+  background-color:white;
+}
+.hover{
+  padding-top:50px;
+}
+}*/
+</style>
+</head>
+
+<body>
+  <!-- this is the containing grid-->
+<article class="clock">
+  <div class="hours-container">
+    <div class="hours"></div>
+  </div>
+  <div class="minutes-container">
+    <div class="minutes"></div>
+  </div>
+  <div class="seconds-container">
+    <div class="seconds"></div>
+  </div>
+</article>
+
+<div id="words">
+  <div class="left"> <a href="project2-3.html">TIMELINE</br>OF</br>TIME</a></div>
+  <div class="middle"><a href="project2.html">MAP</a></div>
+  <div class="right"><a href="project2-1.html">PARALLEL</br>WORLD</div>
+
+</div>
+
+<!-- <div id="grid">
+  <div class="hover">
+    <a href=".html">TIMELINE</br>of</br>TIME</a>
+  </div>
+   <div class="hover">
+     <a href="project2.html">MAP</a>
+   </div>
+   <div class="hover">
+     <a href="project2-1.html">PARALLEL</br>UNIVERSE</a>
+   </div>
+   
+     
+   </div>
+</div>
+
+<div>
+
+</div> -->
+
+</body>
+</html>
