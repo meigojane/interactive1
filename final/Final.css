@@ -1,0 +1,85 @@
+*{
+  font-family: helvetica;
+}
+.modal {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 4px;
+  border-radius: 5px;
+  z-index: 100;
+  background: black;
+}
+
+.pane {
+  position: absolute;
+  margin: 100px;
+  padding: 0;
+  width: 50%;
+  height: 80%;
+}
+
+div > input[type=text] {
+  width: 99%;
+  line-height: 1.8;
+}
+
+td > input {
+  width: 98%;
+}
+
+.modal > img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.modal > p {
+  margin: 2px 0 3px;
+  color: white;
+}
+
+.modal > input {
+  padding: 0;
+  border-radius: 0;
+}
+
+.dismiss {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border-radius: 50%;
+  background-color: #f00;
+  border: 0;
+}
+
+.mappanel {
+  position: absolute;
+  z-index: 100;
+  top: 8px;
+  left: 150px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 4px;
+}
+
+#locationform {
+  top: auto;
+  bottom: 0;
+  left: 0;
+}
+
+#pano {
+  left: auto;
+  right: 0;
+}
+
+input {
+  padding: 2px;
+  border-radius: 4px;
+}

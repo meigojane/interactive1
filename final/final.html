@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Final project</title>
+ <link rel="stylesheet" href="Final.css">
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/final_script.js"></script>
+
+
+</head>
+
+<body>
+<div ng-app="BetterStreetViewApp">
+  <div ng-controller="SVImageController">
+    <div class="modal" id="imagecontainer" ng-show="imageVisible">
+      <button class="dismiss" ng-click="hideImage()">&times</button>
+      <img class='StaticImage' ng-src="{{src}}" />
+      <p>Copy the URL below if this is the image you want to use.</p>
+      <input type="text" placeholder="Street View Image API URL" value="https://maps.googleapis.com/maps/api/streetview?location={{location}}&heading={{heading}}&pitch={{pitch}}&fov={{fov}}&size=640x480" style="width: 99%;" />
+    </div>
+
+    <div class="pane">
+      <div id="map" style="width: 100%; height: 100%;"></div>
+      <div class="mappanel">
+        <input ng-model="location" placeholder="Type address string or latitude,longitude" />
+        <button ng-click="updateSrc()">Get Image</button>
+      </div>
+    </div>
+    <div class="pane" id="pano"></div>
+  </div>
+</div>
+
+
+</body>
+</html>
