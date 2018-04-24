@@ -1,3 +1,32 @@
+$(document).ready(function(){
+
+  $('body').keypress(function( event ) {
+  
+    
+    // store key pressed
+    var code = (event.keyCode ? event.keyCode : event.which);
+    
+    // detect if 'enter' is pressed
+    if(code == 37) {
+      $('#print').append('Turn left');
+    }
+    if(code == 39) {
+      $('#print').append('Turn right');
+    }
+    if(code == 38) {
+      $('#print').append('Go straight');
+    }
+    if(code == 40) {
+      $('#print').append('Back out');
+    }
+
+
+    //
+
+  });
+
+});
+
 (function() {
   var app = angular.module("BetterStreetViewApp", []);
 
@@ -5,7 +34,7 @@
 
     var geocodeDelayTO = null;
 
-    $scope.location = "42.345573,-71.098326";
+    $scope.location = "37.76700429405994,-122.40011356447138";
     $scope.heading = 34;
     $scope.pitch = 10;
     $scope.fov = 90;
@@ -88,8 +117,8 @@
 
     // load google maps and Street view
     var fenway = {
-      lat: 42.345573,
-      lng: -71.098326
+      lat: 37.76700429405994,
+      lng: -122.40011356447138
     };
     var map = new google.maps.Map(document.getElementById('map'), {
       center: fenway,
