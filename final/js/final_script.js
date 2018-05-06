@@ -1,25 +1,46 @@
 $(document).ready(function(){
 
-  $('body').keypress(function( event ) {
+/*  function myFunction() {
+    alert("Deliver yourself to wherever and click deliver at the bottom right corner to once you are done");
+}*/
+ window.alert("Deliver yourself to wherever and Click deliver at the bottom right corner to once you are done!");
   
+  $('.delivery').click(function(){
+    window.print('#print')
+  });
+
+  /*var n = 0;*/
+
+  $('body').keydown(function( event ) {
+    
+   /* n = 0;*/
     
     // store key pressed
     var code = (event.keyCode ? event.keyCode : event.which);
     
     // detect if 'enter' is pressed
     if(code == 37) {
-      $('#print').append('Turn left');
+      $('#print').append('<img src="left.png" /> Turn left');
     }
     if(code == 39) {
-      $('#print').append('Turn right');
+      $('#print').append('<img src="right.png"/> Turn right');
     }
     if(code == 38) {
-      $('#print').append('Go straight');
+      $('#print').append('<img src="up.png"/> Go straight');
     }
     if(code == 40) {
-      $('#print').append('Back out');
+      $('#print').append('<img src="back.png"/> Back out');
     }
-
+  $('body').keydown(function() {
+    $(this).show('.delivery');
+    });
+    /*
+    console.log(n);
+    setInterval(function() {
+      n++;
+      $('.time').html(n);
+    }, 1000);
+    */
 
     //
 
@@ -119,6 +140,7 @@ $(document).ready(function(){
     var fenway = {
       lat: 37.76700429405994,
       lng: -122.40011356447138
+      
     };
     var map = new google.maps.Map(document.getElementById('map'), {
       center: fenway,

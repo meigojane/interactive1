@@ -1,0 +1,41 @@
+<html>
+
+<head>
+  <title>hoverstate</title>
+  <meta charset="utf-8" />
+</head>
+<style>
+.container{
+	width: 50px;
+    margin: auto;
+    transition: all 500ms ease-in-out;
+    z-index: 1;
+    position: relative;
+}
+#switch{
+	background-color: red;
+    width: 20px;
+    height: 600px;
+}
+#background{
+	width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+</style>
+<body>
+	<div class="container">
+		<div id="switch"></div>
+		<div id="circle"></div>
+	</div>
+	<div id="background">
+</div>
+
+
+</body>
+</html>

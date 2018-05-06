@@ -89,6 +89,12 @@ div[class^="page"] {
 
 
 	}
+	.no,.second{
+		opacity:0;
+	}
+	.dance{
+		opacity: 1;
+	}
 
 	#print{
 		display:block;
